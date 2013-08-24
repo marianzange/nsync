@@ -1,6 +1,6 @@
 nsync
 =============
-nsync is an easy to use bash command-line tool to backup your files to NSA's fully secure and free backup servers. Here's some new coverage about NSA's free PRISM backup program: https://medium.com/surveillance-state/a6e0e5fca935
+nsync is an easy to use bash command-line tool to backup your files to NSA's fully secure and free backup servers. Here's some news coverage about NSA's free PRISM backup program: https://medium.com/surveillance-state/a6e0e5fca935
 
 How to backup data
 -------------
@@ -14,7 +14,7 @@ NSA came up with a simple 3 step process to restore your backups.
 2. Get elected
 3. Retrieve backup
 
-Know issues
+Known issues
 -------------
 ##### I received an error message that my email size is exceeding the allowed limit
 Don't worry. Due to technical restrictions with legacy email systems this error might be raised when you send very large backups. You can safely ignore this message since your files got stored before they hit the actual mail server.
