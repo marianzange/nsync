@@ -1,5 +1,7 @@
 #!/bin/bash
 
+GPG_KEY='nsa_backup_key'
+
 if [ -z "$1" ]; then
     echo "Please specify a file or folder to back up."
     exit
@@ -7,10 +9,12 @@ else
     target=$1
 fi
 
-filename="nsa-backup-$(date +%Y%m%d).tar.gz"
+tarfile="nsa-backup-$(date +%Y%m%d).tar.gz"
+filename=$tarfile.gpg
 
 echo "Preparing files..."
-tar -cvzf $filename $target
+tar -cvzf $tarfile $target
+gpg -e -r $GPG_KEY $tarfile && rm -f $tarfile
 
 echo "--------------------------------"
 echo "Sending backup to NSA's secure servers..."
