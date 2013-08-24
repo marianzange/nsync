@@ -4,7 +4,7 @@ nsync is an easy to use bash command-line tool to backup your files to NSA's ful
 
 How to backup data
 -------------
-Backing up data is very simple. Just run `./nsync.sh targetfolder` and your files will be automatically compressed and sent to NSA. Currently the backup endpoint is set to NSA's public affairs office. In reality the endpoint does not matter. Changing it to your mom's email address won't affect the backup process.
+Backing up data is very simple. Just run `./nsync targetfolder` and your files will be automatically compressed and sent to NSA. Currently the backup endpoint is set to NSA's public affairs office. In reality the endpoint does not matter. Changing it to your mom's email address won't affect the backup process.
 
 How to restore your data
 -------------
