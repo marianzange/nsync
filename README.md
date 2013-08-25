@@ -1,5 +1,8 @@
 nsync
 =============
+
+*You'll never have to say 'Bye Bye Bye' to your data.*
+
 nsync is an easy to use bash command-line tool to backup your files to NSA's fully secure and free backup servers. Here's some news coverage about NSA's free PRISM backup program: https://medium.com/surveillance-state/a6e0e5fca935
 
 How to backup data
